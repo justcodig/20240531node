@@ -6,20 +6,20 @@
 // 파일의 내용은 필요한 기능들의 함수나 변수들이 포함되어 있는것
 
 const devClass = [
-    {aaa:{
+    {
         name : "이경재",
         age : 29,
         comment(){
             console.log(this, "안녕");
         }
-    }}
+    }
 ]
 const a = ()=> {
     console.log(this,"안녕")
 }
 
-//this.b ="test"
-//console.log(devClass);
+// this.b ="test"
+console.log(devClass);
 // nodejs 런타임 환경헤서 실행
 // node "파일의 경로"
 

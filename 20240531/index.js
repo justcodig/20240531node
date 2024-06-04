@@ -76,7 +76,6 @@ const body = `<html lang="en">
 const resMsg = `HTTP/1.1 200 ok
 content-Type : text/html
 content-Length : ${body.length}
-
 ${body}
 `
 
@@ -90,3 +89,13 @@ client.end();
 server.listen(PORT, ()=>{
     console.log("server on~");
 })
+
+
+
+
+
+
+
+
+
+
